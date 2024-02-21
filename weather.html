@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Application</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <h1>Weather Dashboard</h1>
+    <div class="container">
+        <div class="input">
+            <h3>Enter City Name</h3>
+            <input class="city-input" type="text" placeholder="E.g. , Kolkata,North 24 pgs,Newtown">
+            <button class="search-btn">Search</button>
+            <div class="divide"></div>
+            <button class="location-btn">Use Current Location</button>
+        </div>
+        <div class="weather-data">
+            <div class="current-weather">
+                <div class="details">
+                    <h2>Kolkata(19-02-2024)</h2>
+                    <h4>Temperature: <span>19<span>&#176;</span>C</span></h4>
+                    <h4>Humadity: <span>79%</span></h4>
+                    <h4>Wind: <span>4.5M/S</span></h4>
+                </div>
+                <div class="icon">
+                    <img src="w1.png" alt="">
+                    <!-- <i class='bx bx-cloud-light-rain'></i> -->
+                    <h4>Moderate rain</h4>
+                </div>
+            </div>
+            <div class="days-forecast">
+                <h2>5 Days Forecast</h2>
+                <ul class="weather-card">
+                    <li class="card">
+                        <h3>19-02-2024</h3>
+                        <img src="w1.png" alt="">
+                        <h4>Temp: <span>19<span>&#176;</span>C</span></h4>
+                        <h4>Humadity: <span>79%</span></h4>
+                        <h4>Wind: <span>4.5M/S</span></h4>
+                    </li>
+                    <li class="card">
+                        <h3>19-02-2024</h3>
+                        <img src="w1.png" alt="">
+                        <h4>Temp: <span>19<span>&#176;</span>C</span></h4>
+                        <h4>Humadity: <span>79%</span></h4>
+                        <h4>Wind: <span>4.5M/S</span></h4>
+                    </li>
+                    <li class="card">
+                        <h3>19-02-2024</h3>
+                        <img src="w1.png" alt="">
+                        <h4>Temp: <span>19<span>&#176;</span>C</span></h4>
+                        <h4>Humadity: <span>79%</span></h4>
+                        <h4>Wind: <span>4.5M/S</span></h4>
+                    </li>
+                    <li class="card">
+                        <h3>19-02-2024</h3>
+                        <img src="w1.png" alt="">
+                        <h4>Temp: <span>19<span>&#176;</span>C</span></h4>
+                        <h4>Humadity: <span>79%</span></h4>
+                        <h4>Wind: <span>4.5M/S</span></h4>
+                    </li>
+                    <li class="card">
+                        <h3>19-02-2024</h3>
+                        <img src="w1.png" alt="">
+                        <h4>Temp: <span>19<span>&#176;</span>C</span></h4>
+                        <h4>Humadity: <span>79%</span></h4>
+                        <h4>Wind: <span>4.5M/S</span></h4>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+ <script src="weather.js"></script>   
+</body>
+</html>
